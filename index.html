@@ -15,16 +15,17 @@
             background: linear-gradient(135deg, #0f766e, #0ea5a4);
             color: white;
             padding: 80px 20px;
-            text-align: center;
         }
         header h1 {
             font-size: 42px;
             margin-bottom: 10px;
+            text-align: center;
         }
         header p {
             font-size: 18px;
             max-width: 600px;
             margin: 0 auto 30px;
+            text-align: center;
         }
         .btn {
             background: white;
@@ -61,39 +62,52 @@
             text-align: center;
             font-size: 14px;
         }
+
         .topbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    max-width: 1100px;
-    margin: auto;
-    }
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 1100px;
+            margin: auto;
+        }
 
-    .brand {
-        display: flex;
-        align-items: center;
-        gap: 10px;
-        font-weight: bold;
-        font-size: 18px;
-    }
+        .brand {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-weight: bold;
+            font-size: 18px;
+        }
 
-    .brand img {
-        height: 36px;
-    }
+        .brand img {
+            height: 36px;
+        }
 
-    .hero {
-        margin-top: 60px;
-    }
+        .hero {
+            margin-top: 60px;
+            text-align: center;
+        }
 
-    .btn-outline {
-        border: 2px solid white;
-        color: white;
-        padding: 10px 22px;
-        border-radius: 6px;
-        text-decoration: none;
-        font-weight: bold;
-    }
+        .btn-outline {
+            border: 2px solid white;
+            color: white;
+            padding: 10px 22px;
+            border-radius: 6px;
+            text-decoration: none;
+            font-weight: bold;
+        }
 
+        .benefit h3 {
+            margin-top: 0;
+            margin-bottom: 10px;
+            color: #0f766e;
+        }
+
+        .benefit p {
+            margin: 0;
+            font-size: 15px;
+            line-height: 1.6;
+        }
     </style>
 </head>
 <body>
@@ -114,7 +128,6 @@
     </div>
 </header>
 
-
 <section>
     <h2>O problema</h2>
     <div class="grid">
@@ -133,6 +146,41 @@
         </div>
         <div class="card">
             A plataforma é baseada em tecnologia open source, com baixo custo operacional, arquitetura escalável e forte preocupação com segurança da informação.
+        </div>
+    </div>
+</section>
+
+<section>
+    <h2>Por que usar o Visão Clínica?</h2>
+    <div class="grid">
+        <div class="card benefit">
+            <h3>Visão clara do negócio</h3>
+            <p>Indicadores organizados e apresentados de forma simples, permitindo entender rapidamente como a clínica está performando.</p>
+        </div>
+
+        <div class="card benefit">
+            <h3>Decisões menos no feeling</h3>
+            <p>Acompanhe resultados, tendências e variações importantes para tomar decisões baseadas em dados.</p>
+        </div>
+
+        <div class="card benefit">
+            <h3>Dados seguros e organizados</h3>
+            <p>Cada clínica acessa exclusivamente seus próprios dados, com controle de usuários e preocupação com LGPD.</p>
+        </div>
+
+        <div class="card benefit">
+            <h3>Simplicidade para o gestor</h3>
+            <p>Sem relatórios complexos ou termos técnicos. A plataforma foi pensada para o dono da clínica.</p>
+        </div>
+
+        <div class="card benefit">
+            <h3>Baixo custo e escalável</h3>
+            <p>Uso de tecnologia open source permite uma solução acessível, que cresce junto com a clínica.</p>
+        </div>
+
+        <div class="card benefit">
+            <h3>Implementação rápida</h3>
+            <p>Sem necessidade de trocar sistemas. Utilizamos os dados que a clínica já possui.</p>
         </div>
     </div>
 </section>
@@ -164,7 +212,7 @@
     </div>
 </section>
 
-<footer>
+<footer id="contato">
     Curitiba, 09 de fevereiro de 2026<br>
     Fausto Henrique de Oliveira<br>
     Autor e idealizador do projeto Visão Clínica
